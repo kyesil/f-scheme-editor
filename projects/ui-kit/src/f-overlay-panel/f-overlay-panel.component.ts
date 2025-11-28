@@ -28,6 +28,7 @@ export class FOverlayPanelComponent<T = any> extends FOverlayPanelBase {
   @ContentChild(F_OVERLAY_PANEL_COMPONENT, { static: true })
   public component: IFOverlayPanelComponent<T> | undefined;
 
+
   constructor() {
     super();
   }
